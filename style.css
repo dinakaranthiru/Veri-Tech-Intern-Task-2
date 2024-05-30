@@ -1,0 +1,102 @@
+@import url("https://fonts.goog;eapis.com/css2?family=Poppins:wwght@300;400;500;600;700;800;900;display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poopins", sans-serif;
+    
+    
+
+}
+body{
+    background-color: #fff ;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px 100px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+header.sticky
+{
+    padding: 5px 100px;
+    background: #fff;
+}
+img{
+    width: 100%;
+}
+.about h2 {
+    text-align: center;
+    color: #000;
+}
+p{
+    text-align: center;
+    color: #000;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.logo{
+    font-size: 32px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    position: relative;
+   font-size: 18px;
+   color: #000;;
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 40px;
+   
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background:whitesmoke;
+    transition: .4s;
+}
+.navbar a:hover::before{
+     width: 100%;
+}
+
+
+.model{
+    padding-left: 50px;
+}
+.model1{
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.img4{
+   max-width: 100%;
+
+}
+.model2{
+    padding-left: 50px;
+}
+.model3{
+    padding-left: 50px;
+}
+.modell{
+    padding-left: 50px;
+}
+.card-Text{
+  display: flex;
+}
